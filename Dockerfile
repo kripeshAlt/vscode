@@ -2,9 +2,6 @@
 FROM codercom/code-server:latest
 
 # Disable password authentication
-ENV PASSWORD=""
-
-# Disable the use of a password entirely
 ENV AUTH=none
 
 # Expose the code-server port
